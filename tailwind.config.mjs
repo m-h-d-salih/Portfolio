@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        alkatra: ["Alkatra", "cursive"],
+        libre: ["Libre Baskerville", "serif"],
+      },
     },
   },
   plugins: [],
