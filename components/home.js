@@ -5,7 +5,7 @@ import { DownloadIcon } from 'lucide-react';
 
 const HomePage = () => {
   return (
-    <section className="min-h-screen bg-[#222324] text-white pt-10 px-4 md:px-8 lg:px-16 rounded-lg">
+    <section data-aos="fade-up"  className="min-h-screen bg-[#222324] text-white pt-10 px-4 md:px-8 lg:px-16 rounded-lg">
       {/* Navigation indicator */}
       <div className="flex items-center gap-2 text-sm mb-16">
         <span className="text-yellow-400">🏠</span>
@@ -37,7 +37,7 @@ const HomePage = () => {
         <div className="lg:w-1/2 relative">
           <div className="relative w-full aspect-[3/4] max-w-md mx-auto">
             {/* Yellow frame */}
-            <div className="absolute inset-0 border-[3px] border-yellow-400 transform rotate-6 scale-105"></div>
+            <div className="absolute z-10 inset-0 border-[3px] border-yellow-400 transform rotate-6 scale-105 "></div>
             
             {/* Image using Next.js Image component */}
             <Image 
@@ -49,7 +49,7 @@ const HomePage = () => {
             />
             
             {/* Yellow triangle decoration */}
-            <div className="absolute -right-4 -bottom-4 w-full h-full border-[3px] border-yellow-400 transform -rotate-6"></div>
+            <div className="absolute -right-2 z-10 bottom-4 w-full h-full border-[3px] border-yellow-400 transform -rotate-6"></div>
           </div>
         </div>
       </div>

@@ -61,7 +61,7 @@ const Sidebar = () => {
         className={`fixed left-0 top-0 h-screen bg-black/95 text-white z-40
           transition-all duration-300 ease-in-out
           ${isSmallScreen ? (isMobileOpen ? 'translate-x-0' : '-translate-x-full') : 'translate-x-0'}
-          ${isExpanded ? 'w-48' : 'w-16'}
+          ${isExpanded ? 'w-56' : 'w-16'}
           flex flex-col items-center py-32`}
         onMouseEnter={() => !isSmallScreen && setIsExpanded(true)}
         onMouseLeave={() => !isSmallScreen && setIsExpanded(false)}
