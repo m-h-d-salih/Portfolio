@@ -40,7 +40,8 @@ const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   return (
-    <section data-aos="fade-up" 
+    <section 
+    // data-aos="fade-up" 
       id="projects"
       className="min-h-screen bg-gradient-to-b mt-3 from-[#1a1b1d] to-[#222324] text-white py-20 px-4 md:px-8 lg:px-20"
     >
@@ -55,7 +56,9 @@ const Projects = () => {
             Featured Projects
           </span>
         </motion.h2>
-        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div 
+        // data-aos="fade-up"
+         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project, index) => (
             <motion.div
               key={index}

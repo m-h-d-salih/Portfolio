@@ -1,5 +1,6 @@
 'use client'
 import About from '@/components/about'
+import Contact from '@/components/Contact'
 import HomePage from '@/components/home'
 import Projects from '@/components/Projects'
 import Skills from '@/components/skills'
@@ -12,6 +13,7 @@ const Page = () => {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
