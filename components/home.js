@@ -18,10 +18,10 @@ const HomePage = () => {
         <div className="lg:w-1/2">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Hey There,</h1>
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            I'm <span className="text-yellow-400">Mohammed Salih</span>
+            I&apos;m <span className="text-yellow-400">Mohammed Salih</span>
           </h2>
           <p className="text-gray-400 text-lg mb-8">
-            I'm a <span className="text-white">Software Engineer</span> blending creativity and logic to build digital spaces where every detail counts.
+            I&apos;m a <span className="text-white">Software Engineer</span> blending creativity and logic to build digital spaces where every detail counts.
           </p>
 
           {/* Download CV button */}
