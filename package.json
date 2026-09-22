@@ -13,8 +13,10 @@
     "framer-motion": "^12.4.3",
     "lucide-react": "^0.475.0",
     "next": "15.1.6",
+    "nodemailer": "^10.0.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.6.1",
     "three": "^0.174.0"
   },
   "devDependencies": {

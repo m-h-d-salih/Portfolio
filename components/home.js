@@ -1,11 +1,11 @@
 'use client'
 import React from 'react';
-import Image from 'next/image'; // ✅ Import Next.js Image component
+import Image from 'next/image';
 import { DownloadIcon } from 'lucide-react';
 
 const HomePage = () => {
   return (
-    <section data-aos="fade-up"  className="min-h-screen bg-[#222324] text-white pt-10 px-4 md:px-8 lg:px-16 rounded-lg">
+    <section id="home" data-aos="fade-up" className="min-h-screen bg-[#222324] text-white pt-10 px-4 md:px-8 lg:px-16 rounded-lg">
       {/* Navigation indicator */}
       <div className="flex items-center gap-2 text-sm mb-16">
         <span className="text-yellow-400">🏠</span>
@@ -21,13 +21,15 @@ const HomePage = () => {
             I'm <span className="text-yellow-400">Mohammed Salih</span>
           </h2>
           <p className="text-gray-400 text-lg mb-8">
-            I'm a <span className="text-white">Full Stack Developer</span> blending creativity and logic to build digital spaces where every detail counts.
+            I'm a <span className="text-white">Software Engineer</span> blending creativity and logic to build digital spaces where every detail counts.
           </p>
-          
+
           {/* Download CV button */}
-          <button className="bg-transparent hover:bg-yellow-400 text-yellow-400 hover:text-black 
-            font-semibold py-3 px-6 border-2 border-yellow-400 hover:border-transparent 
-            rounded-full transition-all duration-300 flex items-center gap-2 group">
+          <button
+            className="bg-transparent hover:bg-yellow-400 text-yellow-400 hover:text-black
+            font-semibold py-3 px-6 border-2 border-yellow-400 hover:border-transparent
+            rounded-full transition-all duration-300 flex items-center gap-2 group"
+          >
             Download CV
             <DownloadIcon size={20} className="transition-transform duration-300 group-hover:translate-y-1" />
           </button>
@@ -38,16 +40,16 @@ const HomePage = () => {
           <div className="relative w-full aspect-[3/4] max-w-md mx-auto">
             {/* Yellow frame */}
             <div className="absolute z-10 inset-0 border-[3px] border-yellow-400 transform rotate-6 scale-105 "></div>
-            
+
             {/* Image using Next.js Image component */}
-            <Image 
-              src="/assets/image.jpg" // ✅ Use relative path
-              alt="Professional portrait" 
-              width={400} // ✅ Set width & height
-              height={500} 
+            <Image
+              src="/assets/image.jpg"
+              alt="Professional portrait"
+              width={400}
+              height={500}
               className="w-full h-full object-cover grayscale"
             />
-            
+
             {/* Yellow triangle decoration */}
             <div className="absolute -right-2 z-10 bottom-4 w-full h-full border-[3px] border-yellow-400 transform -rotate-6"></div>
           </div>
