@@ -11,7 +11,7 @@ const stats = [
 const contactItems = [
   { icon: Phone, label: 'Phone', value: '+91 8078355997', href: 'tel:+918078355997' },
   { icon: Mail, label: 'Email', value: 'salihsha656@gmail.com', href: 'mailto:salihsha656@gmail.com' },
-  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/salih', href: 'https://linkedin.com/in/alflyvazad' },
+  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/mohammed-salih', href: 'https://www.linkedin.com/in/mohammed-salih-7571062b1/' },
   { icon: Github, label: 'Github', value: 'github.com/m-h-d-salih', href: 'https://github.com/m-h-d-salih' },
 ];
 
